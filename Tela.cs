@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using xadrez_console.tabuleiro;
 
 namespace xadrez_console
@@ -19,9 +17,10 @@ namespace xadrez_console
                         continue;
                     }
 
-
                     Console.Write($"{tab.SelecionarPeca(i, j)} ");
                 }
+
+                Console.WriteLine();
             }
         }
     }

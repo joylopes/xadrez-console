@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace xadrez_console.xadrez
+﻿namespace xadrez_console.xadrez
 {
     class Peao
     {
